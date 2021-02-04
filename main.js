@@ -5,7 +5,7 @@ function get_values(){
 }
 
 function clr(){
-
+    pen.clearRect(0,0, canvas.width, canvas.height);
 }
 
 var canvas = document.getElementById("myCanvas");
