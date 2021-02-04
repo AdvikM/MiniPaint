@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#myCanvas{
+    border: 2px ridge white;
+    background-color: white;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=769&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

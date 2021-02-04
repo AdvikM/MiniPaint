@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Paint</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="setDimensions()">
+    <div class="container">
+        <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <canvas width="800" height="600" id="myCanvas"></canvas>
+        <div id="controls">
+            <label for="">COLOR: </label>
+            <input id="color"type="text">
+            <br>
+            <label for="">Line Width: </label>
+            <input id="width"type="text">
+            <br>
+            <button id="clear" class="btn btn-success" onclick="clr()">Clear</button>
+        </div>
+        </center>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
